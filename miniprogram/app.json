@@ -1,0 +1,47 @@
+{
+  "pages": [
+    "pages/index1/index1",
+    "pages/index3/index3",
+    "pages/index2/index2",
+    "pages/userConsole/userConsole",
+    "pages/storageConsole/storageConsole",
+    "pages/databaseGuide/databaseGuide",
+    "pages/addFunction/addFunction",
+    "pages/deployFunctions/deployFunctions",
+    "pages/chooseLib/chooseLib",
+    "pages/maptry/maptry",
+    "pages/usercenter/usercenter"
+  ],
+  "window": {
+    "backgroundColor": "#F6F6F6",
+    "backgroundTextStyle": "dark",
+    "navigationBarBackgroundColor": "#00b26a",
+    "navigationBarTitleText": "掌上看医生",
+    "navigationBarTextStyle": "white",
+    "enablePullDownRefresh": true
+  },
+  "tabBar": {
+    "color": "#000",
+    "selectedColor": "#1AAD16",
+    "list": [
+      {
+        "pagePath": "pages/index1/index1",
+        "text": "主页",
+        "iconPath": "icons/zhuye_active.png",
+        "selectedIconPath": "icons/zhuye.png"
+      },
+      {
+        "pagePath": "pages/index2/index2",
+        "text": "资讯",
+        "iconPath": "icons/dr.png",
+        "selectedIconPath": "icons/dr_active.png"
+      },
+      {
+        "pagePath": "pages/index3/index3",
+        "text": "用户中心",
+        "iconPath": "icons/me.png",
+        "selectedIconPath": "icons/me_active.png"
+      }
+    ]
+  }
+}

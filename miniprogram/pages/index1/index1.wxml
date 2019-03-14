@@ -1,0 +1,11 @@
+ <swiper autoplay indicator-dots indicator-color="black" indicator-active-color="red" circular interval="2000">
+    <swiper-item>
+      <image src='../../images/1.jpg' wx:if="{{arr.length>0}}" mode="widthFix"></image>
+    </swiper-item>
+      <swiper-item>
+      <image src='../../images/5.png' wx:if="{{arr.length>0}}" mode="widthFix"></image>
+    </swiper-item>
+      <swiper-item>
+      <image src='../../images/6.png' wx:if="{{arr.length>0}}" mode="widthFix"></image>
+    </swiper-item>
+  </swiper>
