@@ -1,5 +1,6 @@
 {
   "pages": [
+    "pages/login/login",
     "pages/index1/index1",
     "pages/index3/index3",
     "pages/index2/index2",
@@ -10,7 +11,17 @@
     "pages/deployFunctions/deployFunctions",
     "pages/chooseLib/chooseLib",
     "pages/maptry/maptry",
-    "pages/usercenter/usercenter"
+    "pages/book/book",
+    "pages/ganmao-details/ganmao-details",
+    "pages/cough-details/cough-details",
+    "pages/guoming-details/guoming-details",
+    "pages/ws-details/ws-details",
+    "pages/detail/detail",
+    "pages/index4/index4",
+    "pages/gonggaoxx/gonggaoxx",
+    "pages/lxwm/lxwm",
+    "pages/version-detail/version-detail",
+    "pages/lanmutest/lanmutest"
   ],
   "window": {
     "backgroundColor": "#F6F6F6",
@@ -37,8 +48,14 @@
         "selectedIconPath": "icons/dr_active.png"
       },
       {
+        "pagePath": "pages/index4/index4",
+        "text": "栏目",
+        "iconPath": "icons/star.png",
+        "selectedIconPath": "icons/star_active.png"
+      },
+      {
         "pagePath": "pages/index3/index3",
-        "text": "用户中心",
+        "text": "用户",
         "iconPath": "icons/me.png",
         "selectedIconPath": "icons/me_active.png"
       }

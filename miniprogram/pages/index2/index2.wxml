@@ -1,5 +1,61 @@
 <view class='doc-container'>
-<view class='doc-title'>健康资讯</view>
+  <view class='doc-title'>健康资讯</view>
 
-
+  <view class="weui-panel weui-panel_access">
+    <view class="weui-panel__hd">健康自查</view>
+    <view class="weui-panel__bd">
+      <a href="javascript:void(0);" class="weui-media-box weui-media-box_appmsg">
+        <view class="weui-media-box__hd">
+          <image class="weui-media-box__thumb" src="../../images/ganmao.png"
+            alt=""></image>
+        </view>
+        <view class="weui-media-box__bd">
+          <view class="weui-media-box__title"></view>
+          <view bindtap='ganmao'>感冒症状及治疗</view>
+          <p class="weui-media-box__desc">百姓所说的感冒是指“普通感冒”，又称“伤风”、急性鼻炎或上呼吸道感染。</p>
+        </view>
+      </a>
+      <a href="javascript:void(0);" class="weui-media-box weui-media-box_appmsg">
+        <view class="weui-media-box__hd">
+          <image class="weui-media-box__thumb" src="../../images/kesou.png"
+            alt=""></image>
+        </view>
+        <view class="weui-media-box__bd">
+          <h4 class="weui-media-box__title"></h4>
+          <view bindtap="cough">咳嗽症状及治疗</view>
+          <p class="weui-media-box__desc">咳嗽（cough）是一种呼吸道常见症状，由于气管、支气管黏膜或胸膜受炎症、异物、物理或化学性刺激引起，表现先是声门关闭、呼吸肌收缩、肺内压升高，然后声门张开，肺内空气喷射而出，通常伴随声音.</p>
+        </view>
+      </a>
+    
+      <a href="javascript:void(0);" class="weui-media-box weui-media-box_appmsg">
+        <view class="weui-media-box__hd">
+          <image class="weui-media-box__thumb" src="../../images/bleed.png"
+            alt=""></image>
+        </view>
+        <view class="weui-media-box__bd">
+          <view class="weui-media-box__title"></view>
+          <view bindtap='waishang'>外伤症状及治疗</view>
+          <p class="weui-media-box__desc">百姓所说的感冒是指“普通感冒”，又称“伤风”、急性鼻炎或上呼吸道感染。</p>
+        </view>
+      </a>
+        <a href="javascript:void(0);" class="weui-media-box weui-media-box_appmsg">
+        <view class="weui-media-box__hd">
+          <image class="weui-media-box__thumb" src="../../images/guoming.png"
+            alt=""></image>
+        </view>
+        <view class="weui-media-box__bd">
+          <view class="weui-media-box__title"></view>
+          <view bindtap='changwei'>关注肠胃健康</view>
+          <p class="weui-media-box__desc">肠胃对饮食的适应情况、肠胃的调理方法、各种慢性病的预防措施和饮食方式,保护肠胃6大妙招</p>
+        </view>
+      </a>
+    </view>
+  <view class="weui-panel__ft">
+      <a href="javascript:void(0);" class="weui-cell weui-cell_access weui-cell_link">
+        <view class="weui-cell__bd">待更新 </view>
+        <span class="weui-cell__ft"></span>
+      </a>
+    </view>
+  </view>
+  
 </view>

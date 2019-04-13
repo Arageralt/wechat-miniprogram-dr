@@ -5,7 +5,16 @@ Page({
    * 页面的初始数据
    */
   data: {
-
+    markers: [{
+      iconPath: "http://webapi.amap.com/theme/v1.3/markers/b/mark_bs.png",
+      id: 0,
+      latitude: 28.687146,
+      longitude: 115.895958,
+      width: 19,
+      height: 33,
+    
+    }]
+  
   },
 
   /**

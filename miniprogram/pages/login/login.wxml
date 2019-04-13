@@ -1,0 +1,12 @@
+<image class="maximage" src="cloud://xj-01.786a-xj-01/login-img.jpg" mode="widthFill"></image>
+<view style='text-align:center;margin-top:50rpx'>
+    允许微信授权后，可体验更多功能</view>
+<button wx:if="{{canIUse}}" open-type="getUserInfo" bindgetuserinfo="bindGetUserInfo" bindtap='main' class="weui-btn weui-btn_primary">
+  授权登录
+</button>
+<view class="weui-footer weui-footer_fixed-bottom">
+    <p class="weui-footer__links">
+        <a href="javascript:home();" class="weui-footer__link">掌上看医生</a>
+    </p>
+    <p class="weui-footer__text">Author：Deemo</p>
+</view>

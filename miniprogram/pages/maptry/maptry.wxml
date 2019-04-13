@@ -1,2 +1,7 @@
-<!--miniprogram/pages/maptry/maptry.wxml-->
-<text>miniprogram/pages/maptry/maptry.wxml</text>
+ <map id="map" longitude="115.91042" latitude="28.686638" scale="14" markers="{{markers}}" style="width:100%;height:300px;"></map>
+<view class="weui-footer weui-footer_fixed-bottom">
+    <p class="weui-footer__links">
+        <a href="javascript:home();" class="weui-footer__link">江西省儿童医院</a>
+    </p>
+    <p class="weui-footer__text">地址：南昌市东湖区阳明路122号</p>
+</view>

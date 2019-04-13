@@ -1,70 +1,64 @@
-// pages/index1/index1.js
+//index.js
+//获取应用实例
+var app = getApp()
+var fileData = require('../../utils/data.js')
+
 Page({
-
-  /**
-   * 页面的初始数据
-   */
+  // 页面初始数据
   data: {
-        arr:["apple","banana","watermaleon"],
-        person:{
-           name:"xj",
-           age:22
-        }
+    colors: ['red', 'orange', 'yellow', 'green', 'purple'],
+    // banner 初始化
+    banner_url: fileData.getBannerData(),
+    indicatorDots: true,
+    vertical: false,
+    autoplay: true,
+    interval: 3000,
+    duration: 1000,
+    // nav 初始化
+    navTopItems: fileData.getIndexNavData(),
+    navSectionItems: fileData.getIndexNavSectionData(),
+    curNavId: 1,
+    curIndex: 0
   },
 
-  /**
-   * 生命周期函数--监听页面加载
-   */
-  onLoad: function (options) {
+  onLoad: function () {
+    var that = this
+    that.setData({
+      list: that.data.navSectionItems
+    })
+  },
+  //标签切换
+  switchTab: function (e) {
+    let id = e.currentTarget.dataset.id,
+      index = parseInt(e.currentTarget.dataset.index)
+    this.curIndex = parseInt(e.currentTarget.dataset.index)
+    console.log(e)
+    var that = this
+    this.setData({
+      curNavId: id,
+      curIndex: index,
+    })
 
   },
-
-  /**
-   * 生命周期函数--监听页面初次渲染完成
-   */
-  onReady: function () {
-
+  // 跳转至详情页
+  navigateDetail: function (e) {
+    wx.navigateTo({
+      url: '../detail/detail?artype=' + e.currentTarget.dataset.artype
+    })
   },
+  // 加载更多
+  loadMore: function (e) {
+    console.log('加载更多')
+    var curid = this.data.curIndex
 
-  /**
-   * 生命周期函数--监听页面显示
-   */
-  onShow: function () {
+    if (this.data.navSectionItems[curid].length === 0) return
 
+    var that = this
+    that.data.navSectionItems[curid] = that.data.navSectionItems[curid].concat(that.data.navSectionItems[curid])
+    that.setData({
+      list: that.data.navSectionItems,
+    })
   },
-
-  /**
-   * 生命周期函数--监听页面隐藏
-   */
-  onHide: function () {
-
-  },
-
-  /**
-   * 生命周期函数--监听页面卸载
-   */
-  onUnload: function () {
-
-  },
-
-  /**
-   * 页面相关事件处理函数--监听用户下拉动作
-   */
-  onPullDownRefresh: function () {
-
-  },
-
-  /**
-   * 页面上拉触底事件的处理函数
-   */
-  onReachBottom: function () {
-
-  },
-
-  /**
-   * 用户点击右上角分享
-   */
-  onShareAppMessage: function () {
-
-  }
+  
+ 
 })

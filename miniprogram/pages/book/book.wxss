@@ -1,0 +1,6 @@
+/* miniprogram/pages/book/book.wxss */
+.center{
+   display: flex;
+  align-items: center;
+  justify-content: center;
+}

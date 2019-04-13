@@ -1,6 +1,25 @@
 // pages/index2/index2.js
 Page({
-
+  ganmao: function (e) {
+    wx.navigateTo({
+      url: '../ganmao-details/ganmao-details'
+    })
+  },
+  cough: function (e) {
+    wx.navigateTo({
+      url: '../cough-details/cough-details'
+    })
+  },
+  changwei: function (e) {
+    wx.navigateTo({
+      url: '../book/book'
+    })
+  },
+  waishang: function (e) {
+    wx.navigateTo({
+      url: '../ws-details/ws-details'
+    })
+  },
   /**
    * 页面的初始数据
    */

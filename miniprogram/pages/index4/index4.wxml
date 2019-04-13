@@ -1,0 +1,77 @@
+<text class="vv">
+   健康专栏
+</text>
+<view class="weui-grids">
+    <a href="javascript:;" class="weui-grid">
+        <view class="weui-grid__icon">
+            <image   src="../../icons/test1.png" alt=""  class="imgfix" bindtap="kf"></image>
+        </view>
+        <p class="weui-grid__label">
+            康复
+        </p>
+    </a>
+    <a href="javascript:;" class="weui-grid">
+        <view class="weui-grid__icon">
+            <image src="../../icons/med.png" alt=""  class="imgfix" bindtap="kf"></image>
+        </view>
+        <p class="weui-grid__label">
+            药剂
+        </p>
+    </a>
+     <a href="javascript:;" class="weui-grid">
+        <view class="weui-grid__icon">
+            <image src="../../icons/doctor.png" alt=""  class="imgfix" bindtap="kf"></image>
+        </view>
+        <p class="weui-grid__label">
+            医生
+        </p>
+    </a>
+     <a href="javascript:;" class="weui-grid">
+        <view class="weui-grid__icon">
+            <image src="../../icons/test4.png "alt=""  class="imgfix" bindtap="kf"></image>
+        </view>
+        <p class="weui-grid__label">
+            育儿
+        </p>
+    </a>
+     <a href="javascript:;" class="weui-grid">
+        <view class="weui-grid__icon">
+            <image src="../../icons/jiance.png" alt=""  class="imgfix" bindtap="kf"></image>
+        </view>
+        <p class="weui-grid__label">
+            化验
+        </p>
+    </a>
+     <a href="javascript:;" class="weui-grid">
+        <view class="weui-grid__icon">
+            <image src="../../icons/sport.png" alt=""  class="imgfix" bindtap="kf"></image>
+        </view>
+        <p class="weui-grid__label">
+            运动
+        </p>
+    </a>
+     <a href="javascript:;" class="weui-grid">
+        <view class="weui-grid__icon">
+            <image src="../../icons/sleep.png" alt=""  class="imgfix" bindtap="kf"></image>
+        </view>
+        <p class="weui-grid__label">
+            睡眠
+        </p>
+    </a>
+     <a href="javascript:;" class="weui-grid">
+        <view class="weui-grid__icon">
+            <image src="../../icons/test.png" alt=""  class="imgfix" bindtap="kf"></image>
+        </view>
+        <p class="weui-grid__label">
+            检查
+        </p>
+    </a>
+     <a href="javascript:;" class="weui-grid">
+        <view class="weui-grid__icon">
+            <image src="../../icons/tel.png" alt=""  class="imgfix" bindtap='lxwm'></image>
+        </view>
+        <p class="weui-grid__label">
+            联系
+        </p>
+    </a>
+</view>

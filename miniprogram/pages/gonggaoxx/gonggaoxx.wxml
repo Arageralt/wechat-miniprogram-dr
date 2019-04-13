@@ -1,0 +1,4 @@
+<!--miniprogram/pages/gonggaoxx/gonggaoxx.wxml-->
+<view class="container">
+    公告信息测试    ：毕业设计小程序开发
+</view>

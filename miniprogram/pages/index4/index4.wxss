@@ -1,0 +1,12 @@
+/* miniprogram/pages/index4/index4.wxss */
+.vv{
+font-size: 50rpx;
+text-align:center;
+ display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.imgfix{
+  width:80rpx;
+    height:80rpx;
+}

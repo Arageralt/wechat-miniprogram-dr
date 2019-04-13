@@ -1,0 +1,35 @@
+<image src="../../images/banner_all.png" mode="widthFix">
+</image>
+<article class="weui-article">
+  <h1 class="center">外伤症状及治疗</h1>
+
+  <text> {{blank}} </text>
+  <section>
+    <section>
+
+      <view>
+        <h1>表现1</h1>
+        <text> {{blank}} </text> 淤伤。淤伤是在摔倒或者发生碰撞后，皮下出血而引起皮肤变色，严重的会在皮肤表面形成肿块。愈伤一般果断时间会自动痊愈，不需要特别治疗。如果觉得伤口肿胀或疼痛，可以在受伤24小时内敷冰袋止疼。
+        <text> {{blank}} </text>
+      </view>
+
+    </section>
+    <section>
+
+      <view>
+        <h1>表现2</h1>
+
+        <text> {{blank}} </text> 擦伤。擦伤是在摔倒或者发生碰撞后皮肤轻微破裂出血。擦伤发生后要先用清水将伤口清洗干净，然后用碘伏消毒，最后用创可贴或者纱布包扎止血。若发现几分钟后伤口仍未止血或者出现发炎应该及时就医。
+
+      </view>
+      <text> {{blank}} </text>
+      <view>
+        <h1>表现3</h1>
+         <text> {{blank}} </text> 
+        扎伤。扎伤是皮肤被针状物品扎了一个小而深的洞，有轻微出血。因为伤口比较深，不好清理，特别容易感染，应马上用温水和肥皂清洗伤口，然后包扎止血。如果针状物品是金属材料，有生锈的，应及时去医院打破伤风疫苗。
+      </view>
+
+
+    </section>
+  </section>
+</article>
